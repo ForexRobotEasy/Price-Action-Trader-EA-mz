@@ -1,0 +1,87 @@
+
+// Price Action Trader EA mz
+// Developer's site: forexroboteasy.com
+// Developed by: Forex Robot Easy Team
+
+// Global variables
+int totalPairs = 7; // Total number of currency pairs to trade
+double lotSize = 0.01; // Default lot size for each trade
+double stopLoss = 50; // Default stop loss level for each trade
+double takeProfit = 100; // Default take profit level for each trade
+
+// Price action research function
+void priceActionResearch(){
+  // Add code to analyze price action patterns and make trading decisions
+  // Example:
+  // if bullish engulfing pattern is detected, open a buy trade
+  // if bearish engulfing pattern is detected, open a sell trade
+}
+
+// Multi-pair trading function
+void multiPairTrading(){
+  for(int i = 0; i < totalPairs; i++){
+    // Add code to open trades on each currency pair simultaneously
+    // Example:
+    // open a buy trade on EUR/USD
+    // open a sell trade on GBP/USD
+    // open a buy trade on AUD/USD
+    // ...
+  }
+}
+
+// Set file integration function
+void setFileIntegration(){
+  // Add code to read and utilize the corresponding set files for each pair
+  // Example:
+  // read set file for EUR/USD and apply the settings
+  // read set file for GBP/USD and apply the settings
+  // read set file for AUD/USD and apply the settings
+  // ...
+}
+
+// Commission management function
+void commissionManagement(){
+  // Add code to minimize commission costs
+  // Example:
+  // calculate the commission fee for each trade and adjust the lot size accordingly
+}
+
+// Spread flexibility function
+void spreadFlexibility(){
+  // Add code to operate effectively with varying spreads
+  // Example:
+  // adjust the stop loss and take profit levels based on the current spread
+}
+
+// Account compatibility function
+void accountCompatibility(){
+  // Add code to ensure compatibility with different types of trading accounts
+  // Example:
+  // check the account type (Standard, ECN, etc.) and adjust the trading strategy accordingly
+}
+
+// Money management function
+void moneyManagement(){
+  // Add code for compound interest money management system
+  // Example:
+  // calculate the lot size based on the account balance and desired risk percentage
+}
+
+// Trade execution function
+void tradeExecution(){
+  // Add code to execute trades with predefined stop loss and take profit levels
+  // Example:
+  // open a buy trade with the specified lot size, stop loss, and take profit levels
+}
+
+// Main function
+void OnTick(){
+  priceActionResearch();
+  multiPairTrading();
+  setFileIntegration();
+  commissionManagement();
+  spreadFlexibility();
+  accountCompatibility();
+  moneyManagement();
+  tradeExecution();
+}
